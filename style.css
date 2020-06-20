@@ -197,9 +197,42 @@ header {
     align-items: center;
     justify-content: center;
     box-shadow: 0px 5px 8px black;
+    transform-style: preserve-3d;
+    transition: transform ease 2s;
 }
 
-  figcaption{
+.flip-card:active .card,
+.flip-card:hover .card{
+    transform: rotateY(180deg);
+}
+
+.flip-card {
+    perspective: 500px;
+
+  }
+
+.card-front, .card-back {
+    backface-visibility: hidden;
+    position: absolute;
+    
+}
+
+
+.card-back {    
+    width:  300px;
+    height:  400px;
+    transform: rotateY(180deg);
+    margin-top: 20px;
+}
+
+.card-back h4{    
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+figcaption{
      text-align: center;
      font-size: 1.8em;
      font-weight: bold;
