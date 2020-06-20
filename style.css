@@ -53,6 +53,13 @@ header {
     text-align: center;
 }
 
+.contato  h4{
+    font-family: 'Roboto', sans-serif;    
+    padding-top: 3em;
+    text-align: center;
+    font-size: 1.4em;
+}
+
 @media (min-width: 800px){
     .sobre > h2, .trabalho > h2, .contato > h2 {
         padding-bottom: 5em;
