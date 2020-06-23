@@ -250,6 +250,7 @@ header {
 .card-front, .card-back {
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
+            visibility:visible;
     position: absolute;    
 }
 
