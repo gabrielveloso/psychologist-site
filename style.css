@@ -178,7 +178,7 @@ header {
 .trabalho .grid2 {
   margin-top: 5em;
   display: grid;
-    gap: 5em;
+  gap: 5em;
 }
 
 @media (min-width: 800px){
@@ -241,7 +241,7 @@ header {
 }
 
 
-..flip-card {
+.flip-card {
     -webkit-perspective: 500px;
             perspective: 500px;
 }
