@@ -35,7 +35,7 @@ header {
 }
 
 .sobre, .trabalho, .contato, .depoimento { 
-    padding: 2em 2em 10em 2em;
+    padding: 4em 2em 10em 2em;
 }
 
 .sobre {
@@ -69,12 +69,13 @@ header {
     font-size: 1.4em;
 }
 
- .depoimento h4{
-    font-family: 'Roboto', sans-serif;    
+ .depoimento h4{  
     padding-top: 3em;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.6em;
 }
+
+
 
 @media (min-width: 800px){
     .sobre > h2, .trabalho > h2, .contato > h2 {
@@ -187,11 +188,16 @@ header {
     box-shadow: 5px 5px 10px;
 }
 
-.trabalho .grid, .grid-depoimento{
+.trabalho .grid{
     display: grid;
     gap: 5em;
   }
   
+.grid-depoimento{
+    display: grid;
+    gap: 1.5em;
+}
+
 .trabalho .grid2 {
   margin-top: 5em;
   display: grid;
