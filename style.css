@@ -29,7 +29,7 @@ header {
     background-color: #469DF0;
 }
 
-.sobre, .trabalho, .contato { 
+.sobre, .trabalho, .contato, .depoimento { 
     padding: 2em 2em 10em 2em;
 }
 
@@ -41,19 +41,30 @@ header {
     background-color: #96FAD5;
 }
 
+.depoimento {
+    background-color: #E2E2E2;
+}
+
 @media (min-width: 800px){
-    .sobre, .trabalho, .contato {
+    .sobre, .trabalho, .contato, .depoimento {
         padding: 70px 0 150px 0;
     }   
 }
 
-.sobre  h2, .trabalho  h2, .contato  h2 {
+.sobre  h2, .trabalho  h2, .contato  h2, .depoimento h2 {
     font-family: 'Roboto', sans-serif;
     padding-bottom: 2em;
     text-align: center;
 }
 
 .contato  h4{
+    font-family: 'Roboto', sans-serif;    
+    padding-top: 3em;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+ .depoimento h4{
     font-family: 'Roboto', sans-serif;    
     padding-top: 3em;
     text-align: center;
@@ -170,7 +181,7 @@ header {
     box-shadow: 5px 5px 10px;
 }
 
-.trabalho .grid{
+.trabalho .grid, .grid-depoimento{
     display: grid;
     gap: 5em;
   }
@@ -182,7 +193,7 @@ header {
 }
 
 @media (min-width: 800px){
-    .trabalho .grid {
+    .trabalho .grid, .grid-depoimento{
         grid-template-columns: repeat(3, 300px);
         justify-content: center;
         align-content: center;        
@@ -192,6 +203,11 @@ header {
         justify-content: center;
         align-content: center;        
     }  
+}
+
+.depoimento-item {
+    justify-content: center;
+    align-items: center;
 }
 
 /*.card{
