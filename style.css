@@ -70,9 +70,14 @@ header {
 }
 
  .depoimento h4{  
-    padding-top: 3em;
+    padding-bottom: 2em;
     text-align: center;
     font-size: 1.6em;
+}
+
+.nome-depoimento {
+    padding-bottom: 1em !important;
+    color: #556A99;
 }
 
 
@@ -197,6 +202,7 @@ header {
     display: grid;
     gap: 1.5em;
 }
+
 
 .trabalho .grid2 {
   margin-top: 5em;
