@@ -30,6 +30,11 @@ header {
     height: 100vh;     
 }
 
+.artigos-header {
+    height: 30vh;    
+}
+
+
 .menu-fundo{
     background-color: #469DF0;
 }
@@ -40,6 +45,10 @@ header {
 
 .sobre {
     background-color: #60C8A2;
+}
+
+.sobre.branco {
+    background-color: white;
 }
 
 .contato {
@@ -111,7 +120,7 @@ header {
 .menu ul{
     display: flex;    
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: start;
 }
 
 .menu li{
@@ -134,6 +143,14 @@ header {
     height: 100vh;
     padding-top: 5em;
 }
+
+.head2 {
+    height: 100px;
+    padding-top: 5em;
+    background-color: white;
+    margin-top: -5px;
+}
+
 
 @media (min-width: 800px){
     .head {
@@ -172,9 +189,6 @@ header {
     margin: 0 auto;
 }
 
-.sobre h2 {
-    text-align: center;
-}
 
 .sobre h3{
     max-width: 650px;
