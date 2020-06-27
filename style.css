@@ -201,6 +201,7 @@ header {
 
 .sobre img{
     display: block;
+    max-width: 300px;
     margin: 0 auto;
     margin-bottom: 2em;
     border: 5px solid #afafaf;
@@ -240,6 +241,10 @@ header {
 .depoimento-item {
     justify-content: center;
     align-items: center;
+}
+
+.post {
+    margin-bottom: 5em;
 }
 
 /*.card{
