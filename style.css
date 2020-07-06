@@ -322,6 +322,13 @@ header {
     font-size: 1.4em;
 }
 
+.card-back h5{    
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2em;
+}
+
 figcaption{
      text-align: center;
      font-size: 1.8em;
