@@ -215,7 +215,7 @@ header {
   
 .grid-depoimento{
     display: grid;
-    gap: 1.5em;
+    gap: 5em;
 }
 
 
@@ -226,16 +226,22 @@ header {
 }
 
 @media (min-width: 800px){
-    .trabalho .grid, .grid-depoimento{
+    .trabalho .grid{
         grid-template-columns: repeat(3, 300px);
         justify-content: center;
         align-content: center;        
     }  
-    .trabalho .grid2 {        
+    .trabalho .grid2, .grid-depoimento {        
         grid-template-columns: repeat(2, 300px);
         justify-content: center;
         align-content: center;        
     }  
+    .grid-depoimento {        
+        grid-template-columns: repeat(2, 400px);
+        justify-content: center;
+        align-content: center;        
+    }  
+   
 }
 
 .depoimento-item {
