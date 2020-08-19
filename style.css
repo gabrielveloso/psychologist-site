@@ -213,7 +213,7 @@ header {
     gap: 5em;
   }
   
-.grid-depoimento{
+.grid-depoimento, .grid-depoimento2{
     display: grid;
     gap: 5em;
 }
@@ -231,13 +231,18 @@ header {
         justify-content: center;
         align-content: center;        
     }  
-    .trabalho .grid2, .grid-depoimento {        
+    .trabalho .grid2{        
         grid-template-columns: repeat(2, 300px);
         justify-content: center;
         align-content: center;        
     }  
     .grid-depoimento {        
-        grid-template-columns: repeat(2, 400px);
+        grid-template-columns: repeat(3, 300px);
+        justify-content: center;
+        align-content: center;        
+    }  
+    .grid-depoimento2 {        
+        grid-template-columns: repeat(2, 300px);
         justify-content: center;
         align-content: center;        
     }  
